@@ -1,0 +1,14 @@
+VISIT_RESULT=3
+SCREENSHOT_PATH=screenshot/
+
+------case1
+SEARCH_WORD=little cat
+MATCH_WORD=cat,猫,kitty,kitten
+
+------case2
+PIC_PATH=case2_beer.png
+MATCH_WORD2=蓝妹,啤酒,bluegirl,blue,girl
+
+
+
+

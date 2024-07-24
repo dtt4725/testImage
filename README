@@ -1,0 +1,10 @@
+there are two cases in this test ,cases are run based on pytest
+
+------------
+case1
+check if result match the search text in the search box
+
+case2
+check if result match the uploaded picture
+------------
+two cases can pass on my local env python 3.12, with Chrome on Mac
