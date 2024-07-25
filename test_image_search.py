@@ -7,7 +7,7 @@ from pyautolib.utilities.common import *
 
 # case1
 # check if result match the search text in the search box
-def atest_search_by_text(driver):
+def test_search_by_text(driver):
     image_page = ImagePage(driver)
     image_page.open_website()
 
@@ -64,3 +64,4 @@ def test_search_by_image(driver):
         # if there is no enough result , assert fail and take screenshot
         driver.save_screenshot(f"{sc_path}/case2_fail_{get_timestamp()}.png")
         assert False
+

@@ -24,3 +24,5 @@ def environment():
                 key = line[:sep]
                 value = line[sep + 1:].strip()
                 os.environ[key] = value
+    if not os.path.exists(os.environ['SCREENSHOT_PATH']):
+        os.makedirs(os.environ['SCREENSHOT_PATH'])
